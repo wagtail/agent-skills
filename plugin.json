@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wagtail",
+  "version": "0.1.0",
+  "description": "Wagtail core knowledge, content modeling, API v3, backend, frontend, and upgrades.",
+  "author": {
+    "name": "Wagtail contributors",
+    "url": "https://github.com/wagtail/agent-skills/graphs/contributors"
+  },
+  "homepage": "https://wagtail.org/ai/agent-skills-for-developers/",
+  "repository": "https://github.com/wagtail/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "wagtail",
+    "django",
+    "cms",
+    "python",
+    "accessibility"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Wagtail agent skills",
+        "shortDescription": "Build and maintain Wagtail sites with guidance for your coding agent.",
+        "longDescription": "Skills covering core Wagtail documentation, content modeling, API v3, backend development, frontend templates, and upgrades.",
+        "developerName": "Wagtail contributors",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/wagtail/agent-skills#readme",
+        "defaultPrompt": [
+          "Review my Wagtail page models.",
+          "Check this Wagtail template for accessibility issues.",
+          "Plan this project\u2019s next Wagtail upgrade."
+        ],
+        "brandColor": "#2E1F5E",
+        "composerIcon": "./assets/wagtail-icon.png",
+        "logo": "./assets/wagtail-logo.png"
+      }
+    }
+  }
+}

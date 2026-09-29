@@ -1,0 +1,11 @@
+__pycache__/
+.env
+.env.*
+!.env.example
+.venv/
+.ruff_cache/
+.pytest_cache/
+node_modules/
+.DS_Store
+dist
+tests/runs

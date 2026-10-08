@@ -53,6 +53,5 @@ This approach works with [harnesses compatible with Agent Plugins](https://agent
 copilot plugin marketplace add wagtail/agent-skills
 copilot plugin install core@wagtail-agent-skills
 # Should say:
-# Plugin "wagtail-cli" installed successfully. Installed 5 skills.
+# Plugin "core" installed successfully. Installed 5 skills.
 ```
-

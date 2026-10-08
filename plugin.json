@@ -16,25 +16,5 @@
     "cms",
     "python",
     "accessibility"
-  ],
-  "extensions": {
-    "com.openai": {
-      "interface": {
-        "displayName": "Wagtail agent skills",
-        "shortDescription": "Build and maintain Wagtail sites with guidance for your coding agent.",
-        "longDescription": "Skills covering core Wagtail documentation, content modeling, API v3, backend development, frontend templates, and upgrades.",
-        "developerName": "Wagtail contributors",
-        "category": "Productivity",
-        "websiteURL": "https://github.com/wagtail/agent-skills#readme",
-        "defaultPrompt": [
-          "Review my Wagtail page models.",
-          "Check this Wagtail template for accessibility issues.",
-          "Plan this project\u2019s next Wagtail upgrade."
-        ],
-        "brandColor": "#2E1F5E",
-        "composerIcon": "./assets/wagtail-icon.png",
-        "logo": "./assets/wagtail-logo.png"
-      }
-    }
-  }
+  ]
 }
